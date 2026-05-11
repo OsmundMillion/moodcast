@@ -81,10 +81,34 @@ async function handleDownload() {
     downloadBtn.disabled = true;
 
     const canvas = await html2canvas(card, {
-      scale: 3, // high quality export
+      scale: 3,
       useCORS: true,
+      allowTaint: true,
       backgroundColor: null,
       logging: false,
+      onclone: (clonedDoc) => {
+        const clonedCard = clonedDoc.getElementById("weather-card");
+        const original = document.getElementById("weather-card");
+        const computed = window.getComputedStyle(original);
+
+        // Copy inline gradient and text color directly
+        clonedCard.style.background = original.style.background;
+        clonedCard.style.color = original.style.color;
+
+        // Resolve CSS variables into concrete values on the clone
+        clonedCard.style.setProperty(
+          "--card-accent",
+          computed.getPropertyValue("--card-accent").trim()
+        );
+        clonedCard.style.setProperty(
+          "--card-text",
+          computed.getPropertyValue("--card-text").trim()
+        );
+        clonedCard.style.setProperty(
+          "--card-tint",
+          computed.getPropertyValue("--card-tint").trim()
+        );
+      },
     });
 
     const link = document.createElement("a");
