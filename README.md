@@ -10,12 +10,15 @@ A browser-based weather mood board generator. Type any city name, and Moodcast f
 ![Platform: Browser](https://img.shields.io/badge/Platform-Browser-4285F4?style=flat&logo=googlechrome&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-**[→ Live Demo](https://moodcast.vercel.app/)**
+**[→ Live Demo](https://moodcast-seven.vercel.app/)**
 
 ## 📸 Preview
-
-![Preview](./assets/screenshot.png)
-
+<div align="center">
+  <img src="./assets/screenshot-1.png" alt="Screenshot 1" /><br/>
+  <img src="./assets/screenshot-2.png" alt="Screenshot 2" /><br/>
+  <img src="./assets/screenshot-3.png" alt="Screenshot 3" /><br/>
+  <img src="./assets/screenshot-4.png" alt="Screenshot 4" />
+</div>
 ## ✨ Features
 
 - **Live weather data** — powered by Open-Meteo, fully free with no API key required
