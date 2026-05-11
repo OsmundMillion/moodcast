@@ -14,12 +14,15 @@ A browser-based weather mood board generator. Type any city name, and Moodcast f
 
 ## 📸 Preview
 
-<p align="center">
-  <img src="./assets/screenshot-1.png" alt="Preview 1" />
-  <img src="./assets/screenshot-2.png" alt="Preview 2" />
-  <img src="./assets/screenshot-3.png" alt="Preview 3" />
-  <img src="./assets/screenshot-4.png" alt="Preview 4" />
-</p>
+## 📸 Preview
+
+![Preview](./assets/screenshot-1.png)
+<div align="center">
+  <img src="./assets/screenshot-1.png" alt="Screenshot 1" /><br/>
+  <img src="./assets/screenshot-2.png" alt="Screenshot 2" /><br/>
+  <img src="./assets/screenshot-3.png" alt="Screenshot 3" /><br/>
+  <img src="./assets/screenshot-4.png" alt="Screenshot 4" />
+</div>
 
 ## ✨ Features
 
