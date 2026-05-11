@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 :root {
   --page-bg: #0c0c0f;
   --surface: #131318;
